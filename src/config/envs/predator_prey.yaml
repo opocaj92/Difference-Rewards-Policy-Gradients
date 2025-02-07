@@ -1,0 +1,26 @@
+env: predator_prey
+
+env_args:
+  n_agents: 3
+  n_preys: 1
+  grid_size: 10
+  episode_limit: 25
+  obs_last_action: False
+  obs_timestep_number: False
+  state_last_action: False
+  state_timestep_number: False
+  catch_reward: 10.
+  shaped_reward: False
+  shaped_reward_scale: .1
+  return_all_rewards: False
+  seed: null
+
+test_greedy: True
+test_nepisode: 32
+test_interval: 10000
+log_interval: 10000
+runner_log_interval: 10000
+learner_log_interval: 10000
+t_max: 2050000
+save_model: True
+save_model_interval: 2050000

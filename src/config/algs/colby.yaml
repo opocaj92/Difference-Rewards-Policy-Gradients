@@ -1,0 +1,29 @@
+# --- Colby specific parameters ---
+
+action_selector: "multinomial"
+epsilon_start: .5
+epsilon_finish: .01
+epsilon_anneal_time: 100000
+mask_before_softmax: False
+
+runner: "parallel"
+
+buffer_size: 8
+batch_size_run: 8
+batch_size: 8
+
+env_args:
+  state_last_action: False # critic adds last action internally
+
+lr: 0.0005
+reward_lr: 0.0025
+
+# use Colby
+agent_output_type: "pi_logits"
+learner: "colby_learner"
+reward_fn: "independent_r"
+reward_baseline_fn: "wlu"
+reward_train_mode: "seq"
+reward_train_reps: 1
+
+name: "colby"
