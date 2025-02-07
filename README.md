@@ -1,5 +1,5 @@
 # Difference Rewards Policy Gradients
-This codebase accompanies paper "**Difference Rewards Policy Gradients**" ([Link](https://link.springer.com/article/10.1007/s00521-022-07960-5)) and the two proposed algorithms, Dr.Reinforce and Dr.ReinforceR. The implementation is based on [PyMARL](https://github.com/oxwhirl/pymarl) and [SMAC](https://github.com/oxwhirl/smac) codebases which are open-sourced.
+This codebase accompanies paper "**Difference Rewards Policy Gradients**" ([Link](https://link.springer.com/article/10.1007/s00521-022-07960-5)) and implements the two proposed algorithms, Dr.Reinforce and Dr.ReinforceR. The implementation is based on [PyMARL](https://github.com/oxwhirl/pymarl) and [SMAC](https://github.com/oxwhirl/smac) codebases which are open-sourced.
 
 PyMARL is [WhiRL](http://whirl.cs.ox.ac.uk)'s framework for deep multi-agent reinforcement learning and includes implementations of the following algorithms:
 - [**QMIX**: QMIX: Monotonic Value Function Factorisation for Deep Multi-Agent Reinforcement Learning](https://arxiv.org/abs/1803.11485)
